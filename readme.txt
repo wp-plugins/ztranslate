@@ -1,11 +1,13 @@
 === zTranslate ===
 Developed by: Qian Qin
-Contributors: chineseleper
+Contributors: vavooon, chineseleper
 Tags: multilingual, language, admin, tinymce, bilingual, widget, switcher, i18n, l10n, multilanguage, professional, translation, service, human
 Requires at least: 3.9
 Tested up to: 3.9.1
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Adds userfriendly multilingual content management and translation support into Wordpress. It is fork of qTranslate. It is fully compatible with it and you can migrate to it easy.
+Adds userfriendly multilingual content management and translation support into Wordpress. It is fork of qTranslate.
 
 == Description ==
 
