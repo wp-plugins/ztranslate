@@ -27,9 +27,6 @@ zTranslate makes creation of multilingual content as easy as working with a sing
 zTranslate supports infinite languages, which can be easily added/modified/deleted via the comfortable Configuration Page.
 All you need to do is activate the plugin and start writing the content!
 
-Most flags in flags directory are made by Luc Balemans and downloaded from FOTW Flags Of The World website at
-[http://flagspot.net/flags/](http://www.crwflags.com/FOTW/FLAGS/wflags.html)
-
 == Installation ==
 
 Installation of this plugin is fairly easy:
@@ -37,6 +34,6 @@ Installation of this plugin is fairly easy:
 1. Download the plugin from [here](http://wordpress.org/plugins/ztranslate/ "zTranslate").
 1. Extract all the files. 
 1. Upload everything (keeping the directory structure) to the `/wp-content/plugins/` directory.
-1. There should be a `/wp-content/plugins/zTranslate` directory now with `zTranslate.php` in it.
+1. There should be a `/wp-content/plugins/ztranslate` directory now with `ztranslate.php` in it.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 1. Add the zTranslate Widget to let your visitors switch the language.
