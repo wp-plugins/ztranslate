@@ -501,9 +501,9 @@ function ztrans_strftime($format, $date, $default = '', $before = '', $after = '
 	return $before.strftime($format, $date).$after;
 }
 
-function ztrans_dateFromPostForCurrentLanguage($old_date, $format ='', $before = '', $after = '') {
+function ztrans_dateFromPostForCurrentLanguage($old_date, $format ='') {
 	global $post;
-	return ztrans_strftime(ztrans_convertDateFormat($format), mysql2date('U',$post->post_date), $old_date, $before, $after);
+	return ztrans_strftime(ztrans_convertDateFormat($format), mysql2date('U',$post->post_date), $old_date);
 }
 
 function ztrans_dateModifiedFromPostForCurrentLanguage($old_date, $format ='') {
@@ -578,7 +578,7 @@ function ztrans_convertBlogInfoURL($url, $what) {
 	return ztrans_convertURL($url);
 }
 
-function ztrans_convertURL($url='', $lang='', $forceadmin = false) {
+function ztrans_convertURL($url='', $lang='', $forceadmin = false, $showDefaultLanguage = false) {
 	global $q_config;
 	
 	// invalid language
@@ -655,7 +655,7 @@ function ztrans_convertURL($url='', $lang='', $forceadmin = false) {
 					$url = substr($url, 3);
 				}
 			}
-			if(!$q_config['hide_default_language']||$lang!=$q_config['default_language']) $url = $lang."/".$url;
+			if(!$q_config['hide_default_language'] || $lang!=$q_config['default_language'] || $showDefaultLanguage) $url = $lang."/".$url;
 			break;
 		case ZT_URL_DOMAIN:	// pre domain 
 			if(!$q_config['hide_default_language']||$lang!=$q_config['default_language']) $home = preg_replace("#//#","//".$lang.".",$home,1);

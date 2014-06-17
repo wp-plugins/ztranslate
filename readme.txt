@@ -1,7 +1,7 @@
 === zTranslate ===
 Developed by: Qian Qin
 Contributors: vavooon, chineseleper
-Tags: multilingual, language, admin, tinymce, bilingual, widget, switcher, i18n, l10n, multilanguage, professional, translation, service, human
+Tags: multilingual, language, admin, tinymce, bilingual, widget, switcher, i18n, l10n, multilanguage, translation
 Requires at least: 3.9
 Tested up to: 3.9.1
 License: GPLv3 or later

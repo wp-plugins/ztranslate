@@ -82,7 +82,7 @@ function ztrans_generateLanguageSelectCode($style='', $id='') {
 				$classes = array('lang-'.$language);
 				if($language == $q_config['language'])
 					$classes[] = 'active';
-				echo '<li class="'. implode(' ', $classes) .'"><a href="'.ztrans_convertURL($url, $language).'"';
+				echo '<li class="'. implode(' ', $classes) .'"><a href="'.ztrans_convertURL($url, $language, false, true).'"';
 				// set hreflang
 				echo ' hreflang="'.$language.'" title="'.$q_config['language_name'][$language].'"';
 				if($style=='image')
@@ -106,7 +106,7 @@ function ztrans_generateLanguageSelectCode($style='', $id='') {
 				echo "lc.parentNode.insertBefore(s,lc);";
 				// create dropdown fields for each language
 				foreach(ztrans_getSortedLanguages() as $language) {
-					echo ztrans_insertDropDownElement($language, ztrans_convertURL($url, $language), $id);
+					echo ztrans_insertDropDownElement($language, ztrans_convertURL($url, $language, false, true), $id);
 				}
 				// hide html language chooser text
 				echo "s.onchange = function() { document.location.href = this.value;}\n";
