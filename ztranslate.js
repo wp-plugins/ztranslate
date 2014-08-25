@@ -437,7 +437,8 @@ var zTranslate=function()
 	var langs,
 				langNames;
 	var needToLoad=false;
-	switch (location.pathname)
+	var matches = location.pathname.match(/(\/wp-admin\/([^\/]*))$/);
+	switch (matches && matches[1])
 	{
 		case "/wp-admin/post.php":
 		case "/wp-admin/post-new.php":
