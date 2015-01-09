@@ -3,7 +3,7 @@
 Plugin Name: zTranslate
 Plugin URI: http://vavooon.com/ztranslate/
 Description: Adds userfriendly multilingual content support into Wordpress.
-Version: 2.6.2
+Version: 2.6.3
 Author: Vavooon
 Author URI: http://www.qianqin.de
 Tags: multilingual, multi, language, admin, tinymce, zTranslate, Polyglot, bilingual, widget, switcher, professional, human, translation, service

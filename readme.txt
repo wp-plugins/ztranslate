@@ -4,6 +4,7 @@ Contributors: vavooon, chineseleper
 Tags: multilingual, language, admin, tinymce, bilingual, widget, switcher, i18n, l10n, multilanguage, translation
 Requires at least: 3.9
 Tested up to: 3.9.1
+Stable tag: 2.6.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -11,6 +12,11 @@ Adds userfriendly multilingual content management and translation support into W
 
 == Description ==
 
+**zTranslate has moved on under the name [qTranslate-X](https://wordpress.org/plugins/qtranslate-x/).**
+
+The two authors will now join the efforts to provide the best possible support for you. Please, submit any questions to the [Support Threads](https://wordpress.org/support/plugin/qtranslate-x) at qTranslate-X.
+
+= Former Description of zTranslate (left here for the sake of leagacy) =
 
 Writing multilingual content is already hard enough, why make using a plugin even more complicated? I created zTranslate to let Wordpress have an easy to use interface for managing a fully multilingual web site.
 
