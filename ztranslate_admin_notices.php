@@ -1,6 +1,7 @@
 <?php
 function ztrans_admin_notices() {
 	if($_SERVER['REQUEST_METHOD']!='GET') return;
+	$qtx_agree_missing=false;
 	if(isset($_REQUEST['qtx_action'])){
 		$qtx_action=$_REQUEST['qtx_action'];
 		if(isset($_REQUEST['_wpnonce']) && !wp_verify_nonce($_REQUEST['_wpnonce'], 'qtx_admin_notice')) die('qtx_admin_notice submitted twice?');

@@ -380,6 +380,6 @@ else {
 	add_filter('get_term',				'ztrans_useAdminTermLib',0);
 	add_filter('get_terms',				'ztrans_useAdminTermLib',0);
 
+require_once(dirname(__FILE__)."/ztranslate_admin_notices.php");
 }
-
 ?>
