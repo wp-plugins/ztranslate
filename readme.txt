@@ -8,7 +8,7 @@ Stable tag: 2.6.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-This plugin has moved on under the name qTranslate-X, which is another fork of the original qTranslate. Please, now use qTranslate-X instead of zTranslate.
+This plugin has moved on under the name qTranslate-X, which is another fork of the original qTranslate.
 
 == Description ==
 
